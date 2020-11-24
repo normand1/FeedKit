@@ -151,6 +151,12 @@ enum RSSPath: String {
     case rssChannelItemItunesSeason                             = "/rss/channel/item/itunes:season"
     case rssChannelItemItunesEpisode                            = "/rss/channel/item/itunes:episode"
     
+    // MARK: Podcast
+    
+    case rssChannelPodcastFunding                               = "/rss/channel/podcast:funding"
+    
+    case rssChannelItemPodcastChapters                          = "/rss/channel/item/podcast:chapters"
+    
     // MARK: Media
     
     case rssChannelItemMediaThumbnail                           = "/rss/channel/item/media:thumbnail"

@@ -250,6 +250,8 @@ public class RSSFeed {
     /// See https://help.apple.com/itc/podcasts_connect/#/itcb54353390
     public var iTunes: ITunesNamespace?
     
+    public var podcast: PodcastNamespace?
+    
     public init() { }
     
 }
@@ -281,7 +283,8 @@ extension RSSFeed: Equatable {
             lhs.textInput == rhs.textInput &&
             lhs.title == rhs.title &&
             lhs.ttl == rhs.ttl &&
-            lhs.webMaster == rhs.webMaster
+            lhs.webMaster == rhs.webMaster &&
+            lhs.podcast == rhs.podcast
     }
     
 }

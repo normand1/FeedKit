@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A65B43F256CCAE000CDFB51 /* PodcastChapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B43C256CCAE000CDFB51 /* PodcastChapters.swift */; };
+		4A65B440256CCAE000CDFB51 /* PodcastFunding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B43D256CCAE000CDFB51 /* PodcastFunding.swift */; };
+		4A65B441256CCAE000CDFB51 /* PodcastNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B43E256CCAE000CDFB51 /* PodcastNamespace.swift */; };
 		A01F67A01D1692B20038910F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01F679C1D16922D0038910F /* ViewController.swift */; };
 		A01F67A11D16931A0038910F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A01F67991D1691510038910F /* Main.storyboard */; };
 		A09AFB3A1EEFDFF40076ACC7 /* AtomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09AFB2E1EEFDFF40076ACC7 /* AtomTests.swift */; };
@@ -571,6 +574,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A65B43C256CCAE000CDFB51 /* PodcastChapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastChapters.swift; sourceTree = "<group>"; };
+		4A65B43D256CCAE000CDFB51 /* PodcastFunding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastFunding.swift; sourceTree = "<group>"; };
+		4A65B43E256CCAE000CDFB51 /* PodcastNamespace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastNamespace.swift; sourceTree = "<group>"; };
 		A01F679A1D1691510038910F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A01F679C1D16922D0038910F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A0370EB91CEF9D5A009583A3 /* FeedKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FeedKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -805,6 +811,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A65B43B256CCAE000CDFB51 /* Podcast */ = {
+			isa = PBXGroup;
+			children = (
+				4A65B43C256CCAE000CDFB51 /* PodcastChapters.swift */,
+				4A65B43D256CCAE000CDFB51 /* PodcastFunding.swift */,
+				4A65B43E256CCAE000CDFB51 /* PodcastNamespace.swift */,
+			);
+			path = Podcast;
+			sourceTree = "<group>";
+		};
 		A09C85271CE9B0C300D20CAB /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -991,6 +1007,7 @@
 		A0F6B7E51F6E6E9600220625 /* Namespaces */ = {
 			isa = PBXGroup;
 			children = (
+				4A65B43B256CCAE000CDFB51 /* Podcast */,
 				A0F6B7E61F6E6E9600220625 /* Content */,
 				A0F6B7E81F6E6E9600220625 /* Dublin Core */,
 				A0F6B7EA1F6E6E9600220625 /* iTunes */,
@@ -1985,6 +2002,7 @@
 				A0F6B9911F6E6EBB00220625 /* RSSFeedSkipHour.swift in Sources */,
 				A0F6B9971F6E6EBB00220625 /* JSONFeedParser.swift in Sources */,
 				A0F6B9511F6E6EBB00220625 /* AtomFeedEntryContent.swift in Sources */,
+				4A65B441256CCAE000CDFB51 /* PodcastNamespace.swift in Sources */,
 				A0F6B9791F6E6EBB00220625 /* MediaScene.swift in Sources */,
 				A0F6B9671F6E6EBB00220625 /* MediaCommunity.swift in Sources */,
 				A0F6B9871F6E6EBB00220625 /* RSSFeed.swift in Sources */,
@@ -2023,6 +2041,7 @@
 				A0F6B9951F6E6EBB00220625 /* FeedParser.swift in Sources */,
 				A0F6B97C1F6E6EBB00220625 /* MediaStatus.swift in Sources */,
 				A0F6B9931F6E6EBB00220625 /* RSSPath.swift in Sources */,
+				4A65B43F256CCAE000CDFB51 /* PodcastChapters.swift in Sources */,
 				A0F6B9431F6E6EBB00220625 /* RFC822DateFormatter.swift in Sources */,
 				A0F6B9531F6E6EBB00220625 /* AtomFeedEntryLink.swift in Sources */,
 				A0F6B9581F6E6EBB00220625 /* AtomFeedSubtitle.swift in Sources */,
@@ -2043,6 +2062,7 @@
 				A0F6B97F1F6E6EBB00220625 /* MediaText.swift in Sources */,
 				A0F6B9641F6E6EBB00220625 /* iTunesOwner.swift in Sources */,
 				A0F6B9471F6E6EBB00220625 /* String + toDuration.swift in Sources */,
+				4A65B440256CCAE000CDFB51 /* PodcastFunding.swift in Sources */,
 				A0F6B9981F6E6EBB00220625 /* ParserError.swift in Sources */,
 				A0F6B9891F6E6EBB00220625 /* RSSFeedCloud.swift in Sources */,
 				A0F6B99B1F6E6EBB00220625 /* XMLFeedType.swift in Sources */,

@@ -242,6 +242,34 @@ extension RSSFeed {
                 
             }
             
+            // MARK: Podcast
+            
+            case
+                .rssChannelPodcastFunding:
+                
+                if self.podcast == nil {
+                    self.podcast = PodcastNamespace()
+                }
+                
+                switch path {
+                    case .rssChannelPodcastFunding:
+                        self.podcast?.podcastFunding = PodcastFunding(attributes: attributes)
+                    default: break
+                }
+                
+            case
+                .rssChannelItemPodcastChapters:
+                if self.items?.last?.podcast == nil {
+                    self.items?.last?.podcast = PodcastNamespace()
+                }
+                
+                switch path {
+                    case .rssChannelItemPodcastChapters:
+                        self.items?.last?.podcast?.podcastChapters = PodcastChapters(attributes: attributes)
+                        
+                    default: break
+                }
+            
             // MARK: Media
             
         case
