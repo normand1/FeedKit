@@ -10,6 +10,8 @@ public class PodcastNamespace {
     public var podcastChapters: PodcastChapters?
     
     public var podcastFunding: PodcastFunding?
+    
+    public var podcastTranscript: PodcastTranscript?
         
     public init() { }
     
@@ -21,6 +23,7 @@ extension PodcastNamespace: Equatable {
     
     public static func ==(lhs: PodcastNamespace, rhs: PodcastNamespace) -> Bool {
         return lhs.podcastChapters == rhs.podcastChapters &&
-            lhs.podcastFunding == rhs.podcastFunding
+            lhs.podcastFunding == rhs.podcastFunding &&
+            lhs.podcastTranscript == rhs.podcastTranscript
     }
 }

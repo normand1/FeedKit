@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A23BB47261BFA030095B2BB /* PodcastTranscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A23BB46261BFA030095B2BB /* PodcastTranscript.swift */; };
 		4A65B43F256CCAE000CDFB51 /* PodcastChapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B43C256CCAE000CDFB51 /* PodcastChapters.swift */; };
 		4A65B440256CCAE000CDFB51 /* PodcastFunding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B43D256CCAE000CDFB51 /* PodcastFunding.swift */; };
 		4A65B441256CCAE000CDFB51 /* PodcastNamespace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A65B43E256CCAE000CDFB51 /* PodcastNamespace.swift */; };
@@ -574,6 +575,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4A23BB46261BFA030095B2BB /* PodcastTranscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastTranscript.swift; sourceTree = "<group>"; };
 		4A65B43C256CCAE000CDFB51 /* PodcastChapters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastChapters.swift; sourceTree = "<group>"; };
 		4A65B43D256CCAE000CDFB51 /* PodcastFunding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastFunding.swift; sourceTree = "<group>"; };
 		4A65B43E256CCAE000CDFB51 /* PodcastNamespace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastNamespace.swift; sourceTree = "<group>"; };
@@ -814,6 +816,7 @@
 		4A65B43B256CCAE000CDFB51 /* Podcast */ = {
 			isa = PBXGroup;
 			children = (
+				4A23BB46261BFA030095B2BB /* PodcastTranscript.swift */,
 				4A65B43C256CCAE000CDFB51 /* PodcastChapters.swift */,
 				4A65B43D256CCAE000CDFB51 /* PodcastFunding.swift */,
 				4A65B43E256CCAE000CDFB51 /* PodcastNamespace.swift */,
@@ -2025,6 +2028,7 @@
 				A0F6B94E1F6E6EBB00220625 /* AtomFeedEntry.swift in Sources */,
 				A0F6B9881F6E6EBB00220625 /* RSSFeedCategory.swift in Sources */,
 				A0F6B9761F6E6EBB00220625 /* MediaRating.swift in Sources */,
+				4A23BB47261BFA030095B2BB /* PodcastTranscript.swift in Sources */,
 				A0F6B9691F6E6EBB00220625 /* MediaCopyright.swift in Sources */,
 				A0F6B9721F6E6EBB00220625 /* MediaParam.swift in Sources */,
 				A0F6B9901F6E6EBB00220625 /* RSSFeedSkipDay.swift in Sources */,
