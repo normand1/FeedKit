@@ -269,6 +269,19 @@ extension RSSFeed {
                         
                     default: break
                 }
+                
+            case
+                .rssChannelItemPodcastTranscript:
+                if self.items?.last?.podcast == nil {
+                    self.items?.last?.podcast = PodcastNamespace()
+                }
+                
+                switch path {
+                    case .rssChannelItemPodcastTranscript:
+                        self.items?.last?.podcast?.podcastTranscript = PodcastTranscript(attributes: attributes)
+                        
+                    default: break
+                }
             
             // MARK: Media
             
